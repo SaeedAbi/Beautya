@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    letter-spacing: 0;
+    font-family: 'Open Sans';
+    background: #FAF9F5;
+
+}
+body{
+    background: #FAF9F5;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+.container{
+    max-width: 1440px;
+    padding:0 108px ;
+    margin: 0 auto;
+}
+.black{
+    color: Black;
+}
+.icon-lg{
+    width: 24px;
+    height: 24px;
+    color: #0C0C0C;
+}
+.icon-sm{
+    width: 16px;
+    height: 16px;
+    color: #868686;
+}
+a{
+    text-decoration: none;
+}
+button {
+        background: none;
+        border: none;
+        outline: none;
+        box-shadow: none;
+}
+
+li{
+    list-style: none;
+}
+.h1{
+    font-size: 44px;
+    line-height: 140%;
+    font-weight: bold;
+}
+.h2{
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: bold;
+}
+.h3{
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: bold;
+}
+.h4{
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: bold;
+}
+.h5{
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+.h6{
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: bold;
+}
+.primary-color{
+    color:#A10550;
+}
+
+.body-xl{
+    font-size: 20px;
+    line-height: 180%;
+    font-weight: 400;
+}
+.body-lg{
+    font-size: 18px;
+    line-height: 180%;
+    font-weight: 400;
+}
+.body-md{
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+}
+.body-sm{
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 400;
+}
+.body-xs{
+    font-size: 12px;
+    line-height: 180%;
+    font-weight: 400;
+}
+
+.caption-md{
+    font-size: 12px;
+    line-height: 180%;
+    font-weight:400 ;
+}
+.caption-lg{
+    font-size: 14px;
+    line-height: 140%;
+    font-weight:400 ;
+}
+.caption-sm{
+    font-size: 10px;
+    line-height: 180%;
+    font-weight:400 ;
+}
+
+.button-lg{
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+}
+.button-sm{
+    font-size: 14px;
+    line-height: 24%;
+    font-weight: 400;
+}
+
+.overline-lg{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+}
+.overline-sm{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.remove-me-windows{
+    display:none !important;
+}
+

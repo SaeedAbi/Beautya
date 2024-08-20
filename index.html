@@ -1,0 +1,410 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script defer src="script.js"></script>
+
+    <title>BEAUTYA</title>
+</head>
+<body>
+<header class="container">
+    <div  class="header-buttons-mobile remove-me-windows">
+    <button>
+            <span class="material-symbols-outlined icon-lg">
+                menu
+            </span>
+    </button>
+    <button>
+            <span class="material-symbols-outlined icon-lg ">
+                search
+            </span>
+    </button>
+    </div>
+    <img class="header--logo" src="assets/logo.png" alt="logo image">
+    <nav class="header--nav remove-me-mobile">
+        <ul class="ul">
+            <li>
+                <a class="h6 li-a" href="#">Woman Make Up</a>
+            </li>
+            <li>
+                <a class="h6 li-a" href="#">Woman Skincare</a>
+            </li>
+            <li>
+                <a class="h6 li-a" href="#">Gifts & Sets</a>
+            </li>
+            <li>
+                <a class="h6 li-a" href="#">Branches</a>
+            </li>
+            <li>
+                <a class="h6 li-a" href="#">Our Brand</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header--buttons">
+        <button class="header--button-search remove-me-mobile">
+            <span class="material-symbols-outlined icon-lg ">
+                search
+            </span>
+        </button>
+        <button class="header--button-language">
+            <span class="material-symbols-outlined icon-lg">
+                language
+            </span>
+            <span class="button-lg black">
+                US <span class="button-sm path-home">
+                (EN)
+            </span>
+            </span>
+        </button>
+    </div>
+</header>
+<main class="container mobile-padding">
+        <div class="section-path">
+            <span class="body-md">Home</span>
+            <div class="box--icon-sm">
+            <span class="material-symbols-outlined icon-sm">
+                arrow_forward_ios
+            </span>
+            </div>
+            <span class="h6 path-title" >Woman Skincare</span>
+        </div>
+        <div>
+            <span class="h3 path-title">Woman Skincare</span>
+            <span class="h5 path-home">(17)</span>
+        </div>
+    <section class="section-filter">
+        <div class="main--filter-section">
+            <button class="filter-text">
+                <span class="material-symbols-outlined remove-me-windows">
+                    tune
+                </span>
+                <span class="h4 path-title remove-me">Filter</span>
+            </button>
+            <select class="main--select">
+                <option>Sort:recommended</option>
+            </select>
+        </div>
+        <div class="box-filter-product">
+            <div class="sidebar-filter border-filter remove-me-mobile">
+                <div class="filter-mobile">
+                    <span class="h2">filter</span>
+                    <span class="material-symbols-outlined close-modal">
+                        close
+                    </span>
+                </div>
+                <div class="remove-me-mobile">
+                <span class="sidebar-title h6 path-title">Applied Filters</span>
+                <div class="applied-filters">
+                        <span class="applied-filter body-sm">
+                        Cleansers<span class="material-symbols-outlined">
+                                            close
+                                        </span>
+                        </span>
+                        <span class="applied-filter body-sm">
+                        Peels And Masques<span class=" material-symbols-outlined">
+                                            close
+                                        </span>
+                        </span>
+                        <button class="button-lg button-cancel">Clear All Filters</button>
+                </div>
+                </div>
+                <div class="switch-filter border-filter">
+                    <span class="h6 path-title">Out of Stock</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="filter-category">
+                    <span class="h6">Category</span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_up
+                    </span>
+                    </div>
+                    <form class="category--form">
+                        <label class="checkbox">
+                        <input type="checkbox" id="cleansers" name="cleansers">
+                        <label class="body-sm path-title" for="cleansers">Cleansers</label>
+                        </label>
+                        <div>
+                        <input type="checkbox" id="exfoliators" name="exfoliators">
+                        <label class="body-sm path-title" for="exfoliators">Exfoliators</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="toners" name="toners">
+                        <label class="body-sm path-title" for="toners">Toners</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="retinols" name="retinols">
+                        <label class="body-sm path-title" for="retinols">Retinols</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="peels" name="peels">
+                        <label class="body-sm path-title" for="peels">Peels and Masques</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="moisturiser" name="moisturiser">
+                        <label class="body-sm path-title" for="moisturiser">Moisturiser</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="night cream" name="night cream">
+                        <label class="body-sm path-title" for="night cream">Night Cream</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="facial oil" name="facial oil">
+                        <label class="body-sm path-title" for="facial oil">Facial Oil</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="sunscreen" name="sunscreen">
+                        <label class="body-sm path-title" for="sunscreen">Sunscreen</label>
+                        </div>
+                        <div>
+                        <input type="checkbox" id="eye care" name="eye care">
+                        <label class="body-sm path-title" for="eye care">Eye Care</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter-item">
+                    <div class="filter-category">
+                        <span class="h6">Skin Condition</span>
+                        <span class="material-symbols-outlined">
+                        arrow_drop_up
+                    </span>
+                    </div>
+                    <form class="category--form">
+                        <div>
+                            <input type="checkbox" id="brightening" name="brightening">
+                            <label class="body-sm path-title" for="brightening">Brightening</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="hydration" name="hydration">
+                            <label class="body-sm path-title" for="hydration">Hydration</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="acne" name="acne">
+                            <label class="body-sm path-title" for="acne">Acne</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="anti-ageing" name="anti-ageing">
+                            <label class="body-sm path-title" for="anti-ageing">Anti-Ageing</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="redness" name="redness">
+                            <label class="body-sm path-title" for="redness">Redness</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sensitive skin" name="sensitive skin">
+                            <label class="body-sm path-title" for="sensitive skin">Sensitive Skin</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sun protection" name="sun protection">
+                            <label class="body-sm path-title" for="sun protection">Sun Protection</label>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="filter-item">
+                    <div class="filter-category">
+                        <span class="h6">featured</span>
+                        <span class="material-symbols-outlined">
+                        arrow_drop_up
+                    </span>
+                    </div>
+                    <form class="category--form">
+                        <div>
+                            <label class="body-sm path-title" for="new">New</label>
+                            <input type="checkbox" id="new" name="new">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="best sellers" name="best sellers">
+                            <label class="body-sm path-title" for="best sellers">Best Sellers</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="travel size" name="travel size">
+                            <label class="body-sm path-title" for="travel size">Travel Size</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="professional treatments" name="professional treatments">
+                            <label class="body-sm path-title" for="professional treatments">Professional Treatments</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="daily defense" name="daily defense">
+                            <label class="body-sm path-title" for="daily defense">Daily Defense</label>
+                        </div>
+                    </form>
+                </div>
+             <div class="filter-item">
+                    <div class="filter-category">
+                        <span class="h6">Price</span>
+                        <span class="material-symbols-outlined">
+                        arrow_drop_up
+                    </span>
+                    </div>
+                    <form class="category--form">
+                        <div>
+                            <input type="checkbox" id="lowstPrice" name="lowstPrice">
+                            <label class="body-sm path-title" for="lowstPrice">$50.00 - $150.00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="lowPrice" name="lowPrice">
+                            <label class="body-sm path-title" for="lowPrice">$150.00 - $250.00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mediumPrice" name="mediumPrice">
+                            <label class="body-sm path-title" for="mediumPrice">$250.00 - $350.00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="highPrice" name="highPrice">
+                            <label class="body-sm path-title" for="highPrice">$350.00 - $450.00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="highestPrice" name="highestPrice">
+                            <label class="body-sm path-title" for="highestPrice">$450.00 - $550.00</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+                <div class="product-box">
+                <div class="box--product">
+                    <img class="img-product" src="assets/product image1.png" alt="product image">
+                    <div class="product-text">
+                        <p class="h6 primary-color">Beautya  La Mousse Off/On Foaming Cleaner</p>
+                        <p class="body-xs path-title">Anti-Pollution Foaming Cleanser with Purifying French Water Lily</p>
+                        <span class="body-lg path-title">$65.00</span>
+                    </div>
+                </div>
+                    <div class="box--product">
+                    <img class="img-product" src="assets/product%20image2.png" alt="product image">
+                    <div class="product-text">
+                        <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                        <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                        <span class="body-lg path-title">$520.00</span>
+                    </div>
+            </div>
+                        <img class="product-frame " src="assets/Frame 3.png" alt="woman creaming her face">
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image4.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image5.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image6.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                    </div>
+                     <img class="grid-item remove-me-mobile" src="assets/Frame 7.png" alt="product image">
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image5.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image9.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image10.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image11.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image12.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya  La Mousse Off/On Foaming Cleaner</p>
+                                <p class="body-xs path-title">Anti-Pollution Foaming Cleanser with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$65.00</span>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <img class="img-product" src="assets/product%20image13.png" alt="product image">
+                            <div class="product-text">
+                                <p class="h6 primary-color">Beautya Prestige la Mousse Micellaire</p>
+                                <p class="body-xs path-title">Anti-Aging Face Serum, with Purifying French Water Lily</p>
+                                <span class="body-lg path-title">$520.00</span>
+                            </div>
+                        </div>
+                        <img class="product-frame" src="assets/Frame%2026085623.png" alt="woman creaming her face">
+                        <div class="box--product">
+                            <div class="img-product img--product-empty"></div>
+                            <div class="product-text">
+                                <div class="text--empty-title img--product-empty"></div>
+                                <div class="text--empty-title2 img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="img--product-empty text-empty2 "></div>
+                                <div class="price-empty img--product-empty"></div>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <div class="img-product img--product-empty"></div>
+                            <div class="product-text">
+                                <div class="text--empty-title img--product-empty"></div>
+                                <div class="text--empty-title2 img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="img--product-empty text-empty2 "></div>
+                                <div class="price-empty img--product-empty"></div>
+                            </div>
+                        </div>
+                        <div class="box--product">
+                            <div class="img-product img--product-empty"></div>
+                            <div class="product-text">
+                                <div class="text--empty-title img--product-empty"></div>
+                                <div class="text--empty-title2 img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="text-empty img--product-empty"></div>
+                                <div class="img--product-empty text-empty2 "></div>
+                                <div class="price-empty img--product-empty"></div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
